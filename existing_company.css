@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+.searchtop{
+  padding-left: 35%;
+}
+.Recentlyadded{
+   background-color: #80aaff;
+   padding: 20px;
+   margin-top: 50px;
+   text-align: center;
+   width: auto;
+   height: auto;
+   margin-left:auto;
+
+}
+h2.Recentlyadded{
+    text-align: center
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: auto;
+  border-color: black;
+}
+input[type=submit]:hover {
+  background-color: #80aaff;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+tr, td{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 0px;
+  text-align: center;
+  background: #ccc;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
